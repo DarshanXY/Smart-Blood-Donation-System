@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Blood Donation System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🩸 Smart Blood Donation System</h1>
+
+<div class="container">
+
+  <div class="form">
+    <h2>Add Donor</h2>
+    <input type="text" id="name" placeholder="Name">
+    <input type="text" id="blood" placeholder="Blood Group">
+    <button onclick="addDonor()">Add</button>
+  </div>
+
+  <div class="request">
+    <h2>Request Blood</h2>
+    <input type="text" id="requestBlood" placeholder="Enter Blood Group">
+    <button onclick="requestBlood()">Search</button>
+  </div>
+
+</div>
+
+<h2>Donor List</h2>
+<ul id="donorList"></ul>
+
+<script src="script.js"></script>
+</body>
+</html>
